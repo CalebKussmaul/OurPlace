@@ -1,0 +1,145 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  display: block;
+  font-family: sans-serif;
+}
+
+#game {
+  width: 100vw;
+  height: 100vh;
+  display: block;
+  cursor: none;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, .3);
+  -webkit-backdrop-filter: blur(6px);
+  width: 75%;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  margin-left: -37.5%;
+  text-align: center;
+  border-radius: 0pt 0pt 3pt 3pt;
+  border: solid dimgray;
+  border-width: 0pt 1pt 1pt 1pt;
+}
+
+.top-link {
+  text-align: left;
+  margin: 0pt 10pt;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.top-link-right {
+  float: right;
+}
+
+.title {
+  margin: 0;
+}
+
+.subtitle {
+  margin: 1pt;
+}
+
+.blocks {
+  margin: 10pt;
+  display: inline-block;
+  width: 50%;
+}
+
+.block-label {
+/*  width: 100%;*/
+/*  text-align: left;*/
+  margin: 0;
+  font-size: 80%;
+}
+
+.block {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-color: black;
+}
+
+.block:hover {
+  border: 4px solid orangered;
+}
+
+.selected-block {
+  border: 4px solid red;
+}
+
+.block-black {
+  background-color: black;
+}
+.block-dark-gray {
+  background-color: dimgray;
+}
+.block-gray {
+  background-color: silver;
+}
+.block-white {
+  background-color: white;
+}
+.block-red {
+  background-color: red;
+}
+.block-blue {
+  background-color: blue;
+}
+.block-green {
+  background-color: green;
+}
+.block-yellow {
+  background-color: yellow;
+}
+.block-orange {
+  background-color: orange;
+}
+.block-brown {
+  background-color: brown;
+}
+.block-purple {
+  background-color: purple;
+}
+.block-pink {
+  background-color: pink;
+}
+.block-tan {
+  background-color: tan;
+}
+.block-light-blue {
+  background-color: lightblue;
+}
+.block-light-green {
+  background-color: lightgreen;
+}
+.block-cyan {
+  background-color: cyan;
+}
+/*
+ <div class="block block-black"></div>
+ <div class="block block-gray"></div>
+ <div class="block block-white"></div>
+ <div class="block block-red"></div>
+ <div class="block block-blue"></div>
+ <div class="block block-green"></div>
+ <div class="block block-yellow"></div>
+ <div class="block block-orange"></div>
+ <div class="block block-brown"></div>
+ <div class="block block-purple"></div>
+ <div class="block block-pink"></div>
+ <div class="block block-dark-gray"></div>
+ <div class="block block-tan"></div>
+ <div class="block block-light-blue"></div>
+ <div class="block block-light-green"></div>
+ <div class="block block-cyan"></div>
+ */

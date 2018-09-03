@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8"> 
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="./assets/game.js"></script>
+  <canvas id="game"></canvas>
+  <div class="overlay">
+    <p class="top-link"><a href="./about">About this</a><span class="top-link-right"><a href="./about">Other projects</a></span> </p>
+    <h1 class="title">Our Place</h1>
+    <h3 class="subtitle">{{ user }} <a href="{{ loginLogoutLink }}">{{ loginLogout }}</a></h3>
+    <h3 class="subtitle" id="timer"></h3>
+    <div class="blocks">
+      <p class="block-label">Colors</p>
+      <div class="block color-block block-black"></div>
+      <div class="block color-block block-dark-gray"></div>
+      <div class="block color-block block-gray"></div>
+      <div class="block color-block block-white"></div>
+      <div class="block color-block block-red"></div>
+      <div class="block color-block block-blue"></div>
+      <div class="block color-block block-green"></div>
+      <div class="block color-block block-yellow"></div>
+      <div class="block color-block block-orange"></div>
+      <div class="block color-block block-brown"></div>
+      <div class="block color-block block-purple"></div>
+      <div class="block color-block block-pink"></div>
+      <div class="block color-block block-tan"></div>
+      <div class="block color-block block-light-blue"></div>
+      <div class="block color-block block-light-green"></div>
+      <div class="block color-block block-cyan"></div>
+      <p class="block-label">Wires</p>
+      <div class="block block-wire"></div>
+      <div class="block block-invert-north"></div>
+      <div class="block block-invert-south"></div>
+      <div class="block block-invert-east"></div>
+      <div class="block block-invert-west"></div>
+      <div class="block block-wire-cross"></div>
+      <p class="block-label">Other</p>
+      <div class="block block-wire"></div>
+      <div class="block block-wire-cross"></div>
+      <div class="block block-invert-north"></div>
+      <div class="block block-invert-south"></div>
+      <div class="block block-invert-east"></div>
+      <div class="block block-invert-west"></div>
+    </div>
+  </div>
+
+</body>
+</html>
